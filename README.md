@@ -112,7 +112,7 @@ Lock Point is a secure file management and sharing platform that prioritizes dat
 
 ### **Demo Video and Documentation**  
 - **PPT File**: A PowerPoint presentation explaining the complete flow of the application is included in the repository.  
-- **Demo Video**: Watch the complete demo video using [this drive link](#).  
+- **Demo Video**: Watch the complete demo video using [this drive link](https://drive.google.com/drive/folders/1DYnOLxe5_QiluganJjcHr8iprII0juCN?usp=drive_link).  
 
 ---  
 
