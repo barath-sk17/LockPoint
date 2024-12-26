@@ -422,7 +422,7 @@ def get_shared_files():
         current_user_email = get_jwt_identity()
 
         # Find files where the current user is in the sharing list
-        shared_files = files_collection.find({"sharing": current_user_email})
+        shared_files = files_collection.find({"sharing": {"$in": [current_user_email]}})
 
         # Convert the file data to a list of dictionaries with necessary fields
         file_list = []
@@ -548,7 +548,7 @@ def revoke_access():
         file_id = data.get("file_id")
         email = data.get("email")
         print("Email",email,"file_id",file_id)
-        if not file_id or not email:
+        if not file_id :
             return jsonify({"error": "File ID and email are required"}), 400
 
         # Check if the file exists and the user is the owner
