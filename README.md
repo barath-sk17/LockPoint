@@ -1,4 +1,8 @@
-# Lock Point  
+Here is the updated README file for **Lock Point**:
+
+---
+
+# **Lock Point**  
 
 Lock Point is a secure file management and sharing platform that prioritizes data security and user convenience. With robust encryption, access controls, and seamless collaboration features, it allows users to upload, share, and manage files with confidence.  
 
@@ -74,3 +78,44 @@ Lock Point is a secure file management and sharing platform that prioritizes dat
    ```bash
    git clone https://github.com/barath-sk17/LockPoint.git
    cd lock-point/backend
+   ```  
+2. Create and activate a virtual environment:  
+   ```bash
+   python -m venv venv  
+   source venv/bin/activate  # On Windows: venv\Scripts\activate  
+   ```  
+   ```  
+3. Configure environment variables in a `.env` file:  
+   - MongoDB connection URI  
+   - AWS S3 credentials  
+   - JWT secret key  
+   - Google OAuth 2.0 credentials  
+
+4. Run the backend server:  
+   ```bash
+   flask run  
+   ```  
+
+### **Frontend Setup**  
+1. Navigate to the frontend directory:  
+   ```bash
+   cd ../frontend  
+   ```  
+2. Install dependencies:  
+   ```bash
+   npm install  
+   ```  
+3. Start the development server:  
+   ```bash
+   npm start  
+   ```  
+
+### **Demo Video and Documentation**  
+- **PPT File**: A PowerPoint presentation explaining the complete flow of the application is included in the repository.  
+- **Demo Video**: Watch the complete demo video using [this drive link](#).  
+
+---  
+
+For more information or queries, feel free to reach out.  
+
+---
