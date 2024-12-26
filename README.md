@@ -72,5 +72,5 @@ Lock Point is a secure file management and sharing platform that prioritizes dat
 ### **Backend Setup**  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/barath-sk17/lock-point.git
+   git clone https://github.com/barath-sk17/LockPoint.git
    cd lock-point/backend
